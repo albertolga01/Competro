@@ -1,0 +1,276 @@
+/*	Nombre:			menu.css
+	Tipo:			Hoja de estilos 
+	Autor:			Sergio Valladares.
+	Descripcion:	Estilos para los menus desplegables.
+	Creado:			24/05/07
+	Modificado:		24/05/07 19:45
+*/
+#mainmenu{
+	position: absolute;
+	top: 87px;
+	height: 33px;
+	background-image: url(../img/menu_main_v2.gif);
+	background-repeat: repeat-x;
+	width: 1060px;
+}
+#mask{
+	height:33px;
+	background: url(../img/mask.gif) no-repeat;
+	width:1060px;
+}
+#utils{
+	height: 13px;
+	top: 16px;
+	right: 0px;
+	position: absolute;
+	font-size: 1em;
+	z-index: 99;
+	}
+#cliente{
+	height: 13px;
+	top: 31px;
+	right: 0px;
+	position: absolute;
+	font-size: 1em;
+	z-index: 99;
+	}
+
+#fecha{
+	height: 10px;
+	top: 62px;
+	right: 0px;
+	position: absolute;
+	}
+
+#nav, #nav ul, 
+#nav2, #nav2 ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	}
+	#navv, #navv ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	}
+	
+#nav a, 
+#nav2 a, 
+#nav2 span{
+	display: block;
+	color:#000000;
+	text-decoration:none;
+}
+
+#navv label {
+	display: block;
+	color:#000000;
+	text-decoration:none;
+}
+
+#nav li, 
+#nav2 li{
+	padding:0px;
+	float: left;
+	font-size:.7em;
+}
+
+#navv li {
+	padding:0px;
+	float: right;
+	font-size:.7em;
+}
+
+
+
+
+#nav li a.baritem {
+	padding:10px 7px 5px 7px;
+	text-decoration:none;
+	display:block;
+	font-size: 12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	
+	}
+	
+	#navv li label.baritem {
+	padding:10px 7px 5px 7px;
+	text-decoration:none;
+	display:block;
+	font-size: 12px;
+	font-weight:bold;
+	color:#FFFFFF; 
+	}
+	
+	#nav li a.baritem:hover {
+	padding:10px 7px 5px 7px;
+	text-decoration:none;
+	display:block;
+	 font-size: 12px;
+	font-weight:bold;
+	color:#5aabef;
+	
+	}
+	
+	
+#nav li.bar.last{
+	}
+#nav2 li a.baritem{
+	padding:0px 5px 0px 5px;
+	text-decoration:none;
+	border-left:1px solid #BCBCBC;
+	display:block;
+	}
+#nav2 li a.baritem:hover, 
+#nav2 li a.baritem.sfhover, 
+#nav2 li.bar:hover a.baritem, 
+#nav2 li.bar.sfhover a.baritem{
+	color:#006eb5;
+	
+	}
+#nav li.bar{
+	background: url(../img/menu_main_v2_over.gif) no-repeat left top;
+	height:33px;
+	color:#006eb5;
+	}
+	
+	#navv li.bar{
+	background: url(../img/menu_main_v2_over.gif) no-repeat left top;
+	height:33px;
+	color:#006eb5;
+	}
+	
+	
+	#navv li.barmagna{
+	background-color:#3F0;
+	height:33px;
+	color:#006eb5;
+	}
+	
+	#navv li.barpremium{
+	background-color:#F00;
+	height:33px;
+	color:#006eb5;
+	}
+	
+	#navv li.bardiesel{
+	background-color:#000;
+	height:33px;
+	color:#006eb5;
+	}
+	
+	
+	 
+	
+	
+	
+	 
+	
+#nav li.bar:hover, #nav li.bar.sfhover {
+	background-position:left -33px;
+}
+#nav li.barlast{
+	background: url(../img/menu_main_v2_over.gif) no-repeat left top;
+	height:33px;
+	width:2px;
+	}
+#nav2 li.bar:hover .baritem, 
+#nav2 li.bar.sfhover .baritem{
+	background-color:#4C4C4C;
+}
+#navv li.barmagna.sfhover .baritem{
+	background-color:#4C4C4C;
+}
+#navv li.barpremium.sfhover .baritem{
+	background-color:#4C4C4C;
+}
+#navv li.bardiesel.sfhover .baritem{
+	background-color:#4C4C4C;
+}
+#nav li li, 
+#nav2 li li{
+	font-size:1em;
+	width:160px;/*4px menos que el ancho total del menu*/
+	padding:1px;
+}
+#nav li ul, 
+#nav2 li ul{
+	position: absolute;
+	left: -999em;
+	background-color:#006eb5;
+	border:1px solid #C4C4BE;
+	width: 162px;
+}
+#nav li ul a, 
+#nav2 li ul a, #nav2 li ul span{
+	padding:1px 3px 1px 3px;
+}
+#nav li li a:hover, 
+#nav2 li li a:hover{
+	background-color:#4C4C4C;
+	color:#006eb5;
+}
+
+
+#nav li:hover ul, #nav li.sfhover ul, 
+#nav2 li:hover ul, #nav2 li.sfhover ul {
+	left: auto;
+}
+#nav .ddmenu{
+	top:32px;
+    border:1px solid #2E2E2E; 	
+}
+#nav2 .ddmenu{
+	top:15px;
+    border:solid 1px #2E2E2E; 	
+}
+
+
+
+{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body { font-family: sans-serif; }
+
+.gallery {
+	
+	
+  }
+
+.gallery-cell0 {
+	
+  width: 100%;
+  height: 148px;
+  margin-right: 10px; 
+  counter-increment: gallery-cell;
+  
+}
+
+.gallery-cell1 {
+  width: 100%;
+  height: 148px;
+  margin-right: 10px; 
+  counter-increment: gallery-cell;
+  
+}.gallery-cell2 {
+  width: 100%;
+  height: 148px;
+  margin-right: 10px; 
+  counter-increment: gallery-cell;
+  
+}.gallery-cell3 {
+  width: 100%;
+  height: 148px;
+  margin-right: 10px; 
+  counter-increment: gallery-cell;
+  
+}.gallery-cell4 {
+  width: 100%;
+  height: 148px;
+  margin-right: 10px; 
+  counter-increment: gallery-cell;
+  
+}

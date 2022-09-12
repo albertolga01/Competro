@@ -1,0 +1,418 @@
+.resultMtx2{
+
+
+	margin:0px;
+
+
+	padding-top:10px;
+
+
+	padding-bottom:10px;
+
+
+	border-top: 1px solid #f1f1f1;
+
+
+}
+
+
+.resultMtx{
+
+
+	margin:0px;
+
+
+	padding-top:11px;
+
+
+	padding-bottom:10px;
+
+
+	background-image: url(../img/thmatriz.png);
+
+
+	background-repeat: repeat-x;
+
+
+}
+
+
+.resultMtx2 a.abrir, .resultMtx a.cerrar{
+
+
+	margin-left: 5px;
+
+
+	text-decoration:none;
+
+
+	padding-left:20px;
+
+
+}
+
+
+.resultMtx a.cerrar{
+
+
+	background-image: url(../img/menos.gif);
+
+
+	background-repeat: no-repeat;
+
+
+	background-position: left 1px;
+
+
+}
+
+
+.resultMtx2 a.abrir:hover, .resultMtx a.cerrar:hover{
+
+
+	background-position: left -14px;
+
+
+}
+
+
+.resultMtx2 a.abrir {
+
+
+	background-image: url(img/mas.gif);
+
+
+	background-repeat: no-repeat;
+
+
+	background-position: left 1px;
+
+
+}
+
+
+.center{
+
+
+	text-align:center;
+
+
+	vertical-align:middle;
+
+
+	font-weight:bold;
+
+
+}
+
+
+table.indicadores{
+
+
+	width:100%;
+
+
+}
+
+
+.indicador{
+
+
+	width:56px;
+
+
+}
+
+
+.descripcion{
+
+
+	width:500px;
+
+
+}
+
+
+.fichas{
+
+
+	width:270px;
+
+
+}
+
+
+.explicacion{
+
+
+	text-align:right;
+
+
+	padding:5px;
+
+
+}
+
+
+#content .pressroom td, #contentWide .clean td{
+
+
+background-color:#FFFFFF;
+
+
+background-position:-999px;
+
+
+background-repeat:no-repeat;
+
+
+}
+
+
+table{
+
+
+	
+
+
+	border-collapse:collapse;
+
+
+	border: 1px solid #FFFFFF;
+
+
+	
+
+
+	
+
+
+}
+
+
+table td, table th{
+
+
+	 
+
+
+	border-collapse:collapse;
+
+
+	border:1px solid #FFFFFF;
+
+
+	padding:3px;
+
+
+	
+
+
+}
+
+
+.outgrid{
+
+
+	border-color:#CCCCCC;
+
+
+	border-style:solid;
+
+
+	border-left-width:1px;
+
+
+	border-top-width:1px;
+
+
+	border-bottom-width:1px;
+
+
+	border-right-width:1px;
+
+
+}
+
+
+html>/**/body .outgrid{
+
+
+	border-left-width:2px;
+
+
+	border-top-width:2px;
+
+
+}
+
+
+td.tdleft{
+
+
+text-align:left;
+
+
+}
+
+
+td.tdright{
+
+
+text-align:right;
+
+
+}
+
+
+td.tdcenter{
+
+
+text-align:center;
+
+
+}
+
+
+
+
+
+
+
+
+/**/
+
+
+table th{
+
+
+	color: #FFFFFF;
+
+
+	background-color: #006eb5;
+
+ 
+
+
+	background-repeat: repeat-x;
+
+
+	background-position: 0px bottom;
+
+
+}
+
+
+table th a{
+
+
+color: #FFFFFF;
+
+
+text-decoration:underline;
+
+
+}
+
+
+table td{
+
+
+	background-color:#F6F6F6;
+
+ 
+
+	background-repeat: repeat-x;
+
+
+}
+
+
+
+
+
+table td a{
+
+
+color: #666666;
+
+
+text-decoration:underline;
+
+
+}
+
+
+table.parametros td{
+
+
+	background-image:none;
+
+
+}
+
+
+.color_blanco {
+
+
+	background-color: #FFFFFF;
+
+
+	background-color: #FFFFFF;
+
+
+	background-image: NONE;
+
+
+}
+
+
+/*
+
+
+ table tr:first-child th:first-child {
+
+
+    border-top-left-radius:10px
+
+
+   }
+
+
+
+
+
+
+
+
+table tr:first-child th:last-child {
+
+
+    border-top-right-radius:10px
+
+
+}
+
+
+
+
+
+table tr:last-child td:first-child {
+
+
+    border-bottom-left-radius:10px
+
+
+}
+
+
+
+
+
+table tr:last-child td:last-child {
+
+
+    border-bottom-right-radius:10px
+
+
+}*/

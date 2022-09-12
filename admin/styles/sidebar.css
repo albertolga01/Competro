@@ -1,0 +1,175 @@
+/*	Nombre:			sidebar.css
+	Tipo:			Hoja de estilos 
+	Autor:			Sergio Valladares.
+	Descripcion:	Estilos para el menu contextual.
+	Creado:			18/05/07
+	Modificado:		18/05/07 11:54 am
+*/
+/*SIDEBAR*/
+#sideBar{
+	width:184px;	
+	margin:0px 0px 0px 0px;
+	/*font-size:.6em;*/
+	font-size: 13px; 
+	font-weight: bold;
+	overflow:hidden;
+}
+
+#sideBarr{
+	width:284px;	
+	margin:0px 0px 0px 0px;
+	/*font-size:.6em;*/
+	font-size: 13px; 
+	font-weight: bold;
+	overflow:hidden;
+}
+
+#sideBar h4{
+	font-size:1.1em;
+}
+#sideBar .h5, #sideBar h5{
+	/*font-size:.9em;*/
+	font-size:1em;
+	margin:0px;
+}
+#sideBar .separadorsp{
+	height:6px;
+}
+#maincontent #sideBar .margin{
+	margin:0 5px 5px 5px;
+}
+#maincontent #sideBar .margin p{
+	padding:0px 0px 2px 0px;
+}
+
+.sidemenu, .sidemenuscd{
+	background-color:#F3F3F3;
+	border-top:1px solid #FFFFFF;
+	padding-top:4px;
+}
+.sidemenubasico{
+	padding-top:4px;
+}
+
+.bannersSitios{
+border-top:7px solid #FFFFFF;
+}
+#anuncio{
+	padding:0px
+	}
+#maincontent #sideBar .margin a{
+	color:#264774;
+	text-decoration:none;
+}
+#maincontent #sideBar .margin a:hover{
+	background-color: #006eb5;
+	color: #FFF;
+	text-decoration:underline;
+}
+.list{
+	background: url(../img/2.gifd) no-repeat 0px 4px;
+	padding-left:10px;
+	width:auto;
+}
+a.list{
+	background: url(../img/2.gifd) no-repeat 0px 4px;
+	padding-left:10px;
+	display: block;
+	width:auto;
+	line-height:10pt; 
+}
+a.listSection{
+	background: url(../imagenes/imx/bullets/2.gifd) no-repeat 0px 4px;
+	padding-left:10px;
+	display: block;
+	width:auto;
+	background-color: #006eb5;
+	color: #FFF;
+	text-decoration: none;
+	font-weight:bold;
+}
+a.listSection:hover{
+	color: #000000;
+	text-decoration: underline;
+}
+.listSub{
+	background: url(../imagenes/imx/bullets/2.gifd) no-repeat 10px 4px;
+	padding-left:20px;
+	display: block;
+	width:auto;
+}
+a.listSub{
+	background: url(../imagenes/imx/bullets/2.gifd) no-repeat 10px 4px;
+	padding-left:20px;
+	width:auto;
+}
+a hr{
+margin:2px 0px 2px 0px;
+border-top: 1px solid #DCDCDC;
+width:130px;
+text-indent:-10px;
+height:1px;
+padding:0px;
+}
+#sideBar p.fecha{
+	font-size: 1em;
+	font-weight:bold;
+	color: #006eb5;
+	
+	margin:0px 0px 3px 0px;
+}
+#sideBar p.price{
+color:#666666;
+text-align:center;
+font:bold 1.8em Arial, Helvetica, sans-serif bold;
+margin:0px 0px 0px 0px;
+}
+
+#sideBar p.dolares{
+color:#666666;
+text-align:center;
+margin:0px 0px 0px 0px;
+font:.8em Verdana, Arial, Helvetica, sans-serif;
+}
+#sideBar .aviso{
+margin:0px;
+padding-bottom:3px;
+/*border-top:1px solid #CCCCCC;*/
+text-align:center;
+font-weight:bold;
+}
+#sideBar .aviso a{
+text-decoration:none;
+}
+.bannersSitios img{
+margin-bottom:7px;
+border:none;
+}
+#sideBar p.seleccion{
+color:#666666;
+text-align:left;
+font:bold 1.4em Arial, Helvetica, sans-serif bold;
+margin:0px 0px 0px 0px;
+}
+#sideBar p.subseleccion{
+color:#666666;
+text-align:left;
+font:bold 1.3em Arial, Helvetica, sans-serif bold;
+margin:0px 0px 0px 0px;
+}
+#sideBar p.subseleccion1{
+color:#666666;
+text-align:left;
+font:bold 1.3em Arial, Helvetica, sans-serif bold;
+margin:0px 0px 0px 0px;
+padding-left:20px;
+}
+
+#sideBar p.subseleccion0{
+color:#666666;
+text-align:left;
+font:bold 1.3em Arial, Helvetica, sans-serif bold;
+margin:0px 0px 0px 10px;
+padding-left:20px;
+}
+	

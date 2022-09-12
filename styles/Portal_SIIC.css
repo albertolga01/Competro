@@ -1,0 +1,65 @@
+/*
+body			{ font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#333333; }
+input			{ font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#333333; }
+select			{ font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#333333; }
+th				{ font-family:Arial, Helvetica, sans-serif; font-size:11px; color:white; text-decoration:none; background-color:#CC0000; }
+td				{ font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#333333; text-decoration:none; }
+hr				{ color:#336699; height:1px; border:solid thin}
+
+
+a.header:link 			{ font-size:10px; color:#99cdff; text-decoration:none; background-color:transparent; }
+a.header:hover			{ font-size:10px; color:white; text-decoration:none; background-color:transparent; }
+a.header:visited		{ font-size:10px; color:#99cdff; text-decoration:none; background-color:transparent; }
+a.header:visited:hover	{ font-size:10px; color:white; text-decoration:none; background-color:transparent; }
+
+a.menuSuperiorLink:link   		 { font-size:10px; color:#003466; text-decoration:none; background-color:transparent; }
+a.menuSuperiorLink:hover 		 { font-size:10px; color:white; text-decoration:none; background-color:transparent; }
+a.menuSuperiorLink:visited		 { font-size:10px; color:#003466; text-decoration:none; background-color:transparent; }
+a.menuSuperiorLink:visited:hover { font-size:10px; color:white; text-decoration:none; background-color:transparent; }
+
+a.ligaSecciones:link 		  { font-size:11px; color:#003466; text-decoration:underline; font-weight:bold; background-color:transparent; }
+a.ligaSecciones:hover 		  { font-size:11px; color:#006699; text-decoration:underline; font-weight:bold; background-color:transparent; }
+a.ligaSecciones:visited 	  { font-size:11px; color:#003466; text-decoration:underline; font-weight:bold; background-color:transparent; }
+a.ligaSecciones:visited:hover { font-size:11px; color:#006699; text-decoration:underline; font-weight:bold; background-color:transparent; }
+
+.menuSuperior { font-size:12px; color:#003466; text-decoration:none; background-color:#639cce; border:1px double #003466; }
+*/
+
+
+.textoEjecutivo { font-size:12px; color:black; font-style: italic; font-weight:bold; margin-left: 150px; line-height:8pt; text-align: center;}
+.textoBienvenida { font-size:12px; color:black; font-style: italic; font-weight:bold;}
+.textoClienteSel { font-size:12px; color:black; font-weight:bold;margin-left: 150px; line-height:8pt;text-align: center;}
+
+.color_non		{ background-color:#dedede; }
+.color_par		{ background-color:#f0f0f0; }
+
+.error 			{ font-size:12px; color:red; font-weight:bold; }
+
+.fechapc		{ font-size:10px; color:#CC0000; font-weight:bold; }
+.info 			{ font-size:12px; color:#003466; font-weight:bold; }
+
+.letra_1		{ font-size:10px; color:#333333;  }
+.letra_2		{ font-size:12px; color:#333333;  }
+.letra_3		{ font-size:16px; color:#333333;  }
+
+a.comunicado:link { color: #CC0000;}
+a.comunicado:hover {color: #000000;}
+
+/*
+.Arial10pxAzulOscuro { font-size:10px; color:#003466; text-decoration: none; }
+.Arial10pxAzulClaro  { font-size:10px; color:#99cdff; text-decoration: none; }
+.Arial10pxBlanco     { font-size:10px; color:black; text-decoration: none; }
+.Arial8pxBlanco     { font-size:8px; color:white; text-decoration: none; }
+
+.tituloAcceso {	font-size:12px; color:#99cdff; font-weight:bold; background-color:#003466; }
+
+.titulosSecciones { font-size:12px; color:black; font-style:italic; font-weight:bold; }
+
+.notasdelogin { font-size:11px; font-style:normal; color:#ff9900; font-weight:bold; font-variant:normal; }
+.quienes	{ font-size:13px; color:#003466; font-weight:bold; }
+
+.TextoBanner  { font-size:11px; color:white; text-decoration: none; font-weight:bold; }
+
+.TextocontentBox { font-size:1.3em; font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; }
+
+*/

@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+form{
+	margin:0px;
+	font-size:1em
+}
+#sideBar select{
+	width:150px;
+	font-size:11px;
+}
+#sideBar .boton{
+	background-color: transparent;
+	color: #FFFFFF;
+	border: none;
+	font-size:8px;
+	font-weight:bold;
+	width:44px;
+	height:17px;
+	background-image: url(../img/b_buscar.gif);
+	background-repeat: no-repeat;
+}
+.send {
+	background-color: transparent;
+	color: #FFFFFF;
+	border: none;
+	font-size:8px;
+	font-weight:bold;
+	width:44px;
+	height:17px;
+	background-image: url(img/b_send.gif);
+	background-repeat: no-repeat;
+}
+a.back{
+	background-image: url(../img/b_regresar.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	text-indent:-9999px;
+	width:65px;
+	height:17px;
+	display:block;
+	text-decoration:none;
+}
+a.back:hover{
+	background-position: 0px -17px;
+}
+.botongenerico{
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #990000;
+	border: 1px solid #CC0000;
+	font-size:1em;
+}
+

@@ -1,0 +1,3 @@
+<?php 
+//Guarda Facturas
+?>
